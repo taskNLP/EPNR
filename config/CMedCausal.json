@@ -1,0 +1,27 @@
+{
+  "dataset": "CMedCausal",
+  "save_path": "model.pt",
+  "predict_path": "output.json",
+
+  "dist_emb_size": 20,
+  "lstm_hid_size": 512,
+  "conv_hid_size": 512,
+  "bert_hid_size": 768,
+
+  "emb_dropout": 0.5,
+
+  "epochs": 100,
+  "batch_size": 6,
+
+  "learning_rate": 1e-4,
+  "weight_decay": 0,
+  "clip_grad_norm": 5.0,
+
+  "bert_name": "google-bert/bert-base-chinese",
+  "bert_learning_rate": 1e-5,
+  "warm_factor": 0,
+
+  "use_bert_last_4_layers": true,
+  "seed": 123
+
+}
